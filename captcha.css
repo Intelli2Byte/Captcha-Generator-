@@ -1,0 +1,107 @@
+/* Reset and base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Body with animated pastel gradient background */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  background: linear-gradient(270deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb, #a6c1ee);
+  background-size: 1000% 1000%;
+  animation: gradientShift 15s ease infinite;
+}
+
+/* Container box with clean solid background */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 60px;
+  border-radius: 20px;
+  width: 350px;
+
+  background: rgba(255, 255, 255, 0.9); /* soft white translucent */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+/* Heading style */
+h2.status {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  text-shadow: none;
+}
+
+/* Spacing for divs inside container */
+div {
+  margin: 1rem 0;
+}
+
+/* Buttons styling */
+button {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+
+  background-color: #5e5e5e;
+  color: whitesmoke;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #ff6572;
+  transform: scale(1.1);
+  color: #fff;
+}
+
+/* Captcha text input box */
+.generator {
+  font-size: 2rem;
+  padding: 1rem;
+  background: #3a3a3a;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  width: 250px;
+  box-shadow: 2px 2px 4px #444;
+  border: none;
+}
+
+/* User input box */
+.client-text {
+  text-align: center;
+  width: 250px;
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background: #96e6a1;
+  color: #333;
+  box-shadow: none;
+}
+
+/* Keyframe animation for background gradient */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
