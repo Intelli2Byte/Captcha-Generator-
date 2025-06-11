@@ -46,8 +46,8 @@ A simple and beautiful Captcha Generator web app built with HTML, CSS, and JavaS
 
 ## 🖼️ Preview
 
-![Captcha Generator Screenshot](Screenshot_1.png)
-![Captcha Generator Screenshot](Screenshot_2.png)
+![Captcha Generator Screensho](https://github.com/Intelli2Byte/Captcha-Generator-/blob/5ae7ff705fde2df43725ed13f0598e2014f26f35/Screenshot_2.png)
+![Captcha Generator Screenshot](https://github.com/Intelli2Byte/Captcha-Generator-/blob/5ae7ff705fde2df43725ed13f0598e2014f26f35/Screenshot_1.png)
 
 
 ## 🚀 How to Use
